@@ -11,8 +11,8 @@ import {
   SelectChangeEvent,
   TextField,
 } from "@mui/material";
-import { convertComponentTypeToLabel } from "@/app/utils/convert-component-type-to-label";
-import { convertType } from "@/app/utils/convert-types";
+import { convertComponentTypeToLabel } from "@/utils/convert-component-type-to-label";
+import { convertType } from "@/utils/convert-types";
 
 interface FormToBuildDynamicFormProps {
   setNewInputs: (inputs: Property[]) => void;

@@ -16,7 +16,7 @@ export enum COMPONENT_TYPE {
 }
 
 export type Property = {
-  type: COMPONENT_TYPE.CHECKBOX;
+  type: COMPONENT_TYPE;
   props: CheckboxProps & DropdownInputProps & InputDefaultProps & SwitchProps;
 };
 

@@ -2,7 +2,7 @@
 import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd";
 import { Property } from "../../dynamic-form/build-form/InputForm";
 import styles from "./input-list.module.css";
-import { convertComponentToLabel } from "@/app/utils/convert-component-type-to-label";
+import { convertComponentToLabel } from "@/utils/convert-component-type-to-label";
 import { FaGripVertical } from "react-icons/fa";
 
 interface InputListProps {
