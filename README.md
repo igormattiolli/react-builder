@@ -6,6 +6,8 @@ This is a project about developing the design pattern Builder with React.js.
 As a use case, we use a real scenario of developing a form dynamically.
 Below is a gif about the development
 
+![Alt Text](https://github.com/igormattiolli/react-builder/blob/main/src/assets/CPT2404191936-1448x904.gif?raw=true)
+
 ## Getting Started
 
 First, run the development server:
