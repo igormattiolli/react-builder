@@ -7,6 +7,7 @@ import { DropdownInputProps } from "./dropdown-input/DropdownInputComponent";
 import { InputDefaultProps } from "./input-default/InputDefaultComponent";
 import { SwitchProps } from "./switch/SwitchComponent";
 import { CheckboxProps } from "./checkbox/CheckboxComponent";
+import { ReactNode } from "react";
 
 export class FormBuilder {
   private constructor(private readonly components: InputForm[]) {}
@@ -35,7 +36,7 @@ export class FormBuilder {
     return this;
   }
 
-  build(): InputForm[] {
-    return this.components;
+  build(): ReactNode[] {
+    return this.components.map((c) => c.component);
   }
 }

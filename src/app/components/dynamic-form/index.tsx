@@ -1,5 +1,4 @@
-import { DynamicFormBuilder } from "./build-form/FormBuilder";
-import Button from "@mui/material/Button";
+import { DynamicFormBuilder } from "./build-form/DynamicFormBuilder";
 import { Property } from "./build-form/InputForm";
 
 interface DynamicFormProps {

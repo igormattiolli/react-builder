@@ -13,6 +13,7 @@ export default function Home() {
         <FormToBuildDynamicForm setNewInputs={setInputs} />
       </div>
       <div className={styles["form-dynamic"]}>
+        <h2>New Form</h2>
         <DynamicForm currentInputs={inputs} />
       </div>
     </main>

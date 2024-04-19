@@ -53,7 +53,7 @@ const FormToBuildDynamicForm: React.FC<FormToBuildDynamicFormProps> = ({
       <h2>Create a new Form</h2>
       <TextField
         id="standard-basic"
-        label="Standard"
+        label="Enter the component label"
         variant="standard"
         fullWidth
         onChange={(event) => setLabel(event.target.value)}

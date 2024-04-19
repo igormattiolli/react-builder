@@ -53,7 +53,7 @@ const InputList: React.FC<InputListProps> = ({ inputs, setInputs }) => {
                         {input.property.props.label} |{" "}
                         {convertComponentToLabel(input.property.type)}
                       </p>
-                      <FaGripVertical />
+                      <FaGripVertical color="#868788" />
                     </div>
                   )}
                 </Draggable>

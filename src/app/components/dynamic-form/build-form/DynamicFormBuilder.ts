@@ -10,9 +10,9 @@ export class DynamicFormBuilder {
   }
 
   execute({ inputsValues }: { inputsValues: Properties }): ReactNode[] {
-    inputsValues.forEach(
-      (value) => (this.formBuilder = this.formBuilder[value.type](value.props))
-    );
-    return this.formBuilder.build().map((c) => c.component);
+    inputsValues.forEach((value) => {
+      this.formBuilder = this.formBuilder[value.type](value.props);
+    });
+    return this.formBuilder.build();
   }
 }
