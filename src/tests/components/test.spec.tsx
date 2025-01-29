@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 
 test("Render the button correctly", () => {
   render(<FormToBuildDynamicForm setNewInputs={() => {}} />);
-  const element = screen.getByTestId("standard-basic-123");
+  const element = screen.getByTestId("standard-basic");
   expect(element).toBeInTheDocument();
 });
 
